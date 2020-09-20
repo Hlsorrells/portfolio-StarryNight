@@ -1,0 +1,24 @@
+<div class="projects">
+    {{#each projects}}
+    <section>
+        <figure>
+            <h3 class="title">{{title}}</h3>
+            <a href={{deployed}}>
+                <img src="assets/images/{{image}}.gif" alt="{{title}} Project" id="gif">
+            </a>
+            <br>
+            <figcaption><a href={{deployed}}>Deployed Link</a><a> *** </a>
+                <a href={{repo}}>GitHub Repo</a>
+            </figcaption>
+        </figure>
+        <div class="flex-container tech">
+            <strong>Tech Stack: </strong>
+            {{#each stack}}
+            {{this}},
+            {{/each}}
+        </div>
+        <p class="description"><strong>Description: </strong>{{description}}</p>
+        <p class="login"><strong>Login Instructions: </strong>{{login}}</p>
+    </section>
+    {{/each}}
+</div>
