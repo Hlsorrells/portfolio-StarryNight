@@ -13,12 +13,43 @@ section {
     background-color: rgba(140, 140, 140, .40);
 }
 
+figure {
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+a {
+    color: #262626;
+    font-size: small;
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    padding: 0%;
+}
+
 .navbar {
     width: 100%;
 }
 
-.about {
+.about, .projects {
     margin-top: 25%;
+}
+
+.title {
+    text-align: center;
+}
+
+.tech, .description, .login {
+    font-size: 14px;
+    margin-bottom: .3rem;
 }
 
 #intro {
@@ -28,4 +59,9 @@ section {
     transform: translate(-50%, -50%);
     font-weight: normal;
     text-align: center;
+}
+
+#gif {
+    max-width: 100%;
+    height: auto;
 }
