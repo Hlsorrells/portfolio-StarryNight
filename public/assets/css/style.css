@@ -1,136 +1,31 @@
-/* Customized Navbar Style using generator from https://work.smarchal.com/twbscolor/ to create a custom color palette with my brand colors */
+body {
+    background-image: url("../images/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+}
+
+section {
+    color: #262626;
+    margin: 40px;
+    padding: 10px;
+    background-color: rgba(140, 140, 140, .40);
+}
 
 .navbar {
-    background-color: #140033!important;  
-  }
-  .navbar .navbar-brand {
-    color: #f0e6ff!important;
-  }
-  .navbar .navbar-brand:hover,
-  .navbar .navbar-brand:focus {
-    color: #c299ff!important;
-  }
-  .navbar .navbar-text {
-    color: #f0e6ff!important;
-  }
-  .navbar .navbar-text a {
-    color: #c299ff!important;
-  }
-  .navbar .navbar-text a:hover,
-  .navbar .navbar-text a:focus {
-    color: #c299ff!important; 
-  }
-  .navbar .navbar-nav .nav-link {
-    color: #f0e6ff!important;
-    border-radius: .25rem!important;
-    margin: 0 0.25em!important;
-  }
-  .nav-link.active {
-    color: #c299ff!important;
-  }
-  .navbar .navbar-nav .nav-link:not(.disabled):hover,
-  .navbar .navbar-nav .nav-link:not(.disabled):focus {
-    color: #c299ff!important;
-  }
-  .navbar .navbar-nav .nav-item.active .nav-link,
-  .navbar .navbar-nav .nav-item.active .nav-link:hover,
-  .navbar .navbar-nav .nav-item.active .nav-link:focus,
-  .navbar .navbar-nav .nav-item.show .nav-link,
-  .navbar .navbar-nav .nav-item.show .nav-link:hover,
-  .navbar .navbar-nav .nav-item.show .nav-link:focus {
-    color: #c299ff!important;
-    background-color: #5200cc!important;
-  }
-  .navbar .navbar-toggler {
-    border-color: #5200cc!important;
-    background-color: #c299ff!important;
-  }
-  .navbar .navbar-toggler:hover,
-  .navbar .navbar-toggler:focus {
-    background-color: #5200cc!important;
-  }
-  .navbar .navbar-toggler .navbar-toggler-icon {
-    color: #f0e6ff!important;
-  }
-  .navbar .navbar-collapse,
-  .navbar .navbar-form {
-    border-color: #f0e6ff!important;
-  }
-  .navbar .navbar-link {
-    color: #f0e6ff!important;
-  }
-  .navbar .navbar-link:hover {
-    color: #c299ff!important;
-  }
-  
-  .navbar-light .navbar-nav .nav-link.active {
-    color: #f0e6ff!important;
-  }
-  
-  @media (max-width: 575px) {
-    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-      color: #f0e6ff!important;
-    }
-    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-      color: #c299ff!important;
-    }
-    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-      color: #c299ff!important;
-      background-color: #5200cc!important;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
-      color: #f0e6ff!important;
-    }
-    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-      color: #c299ff!important;
-    }
-    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-      color: #c299ff!important;
-      background-color: #5200cc!important;
-    }
-  }
-  
-  @media (max-width: 991px) {
-    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
-      color: #f0e6ff!important;
-    }
-    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-      color: #c299ff!important;
-    }
-    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
-      color: #c299ff!important;
-      background-color: #5200cc!important;
-    }
-  }
-  
-  @media (max-width: 1199px) {
-    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-      color: #f0e6ff!important;
-    }
-    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-      color: #c299ff!important;
-    }
-    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
-      color: #c299ff!important;
-      background-color: #5200cc!important;
-    }
-  }
-  
-  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #f0e6ff!important;
-  }
-  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
-  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #c299ff!important;
-  }
-  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #c299ff!important;
-    background-color: #5200cc!important;
-  }
+    width: 100%;
+}
+
+.about {
+    margin-top: 25%;
+}
+
+#intro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: normal;
+    text-align: center;
+}
