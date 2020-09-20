@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "Megabites",
+        "deployed": "https://megabytes.herokuapp.com/",
+        "repo": "https://github.com/Bmcart3/Megabites",
+        "image": "megabites",
+        "stack": [
+           "React", "JavaScript", "Express", "Node", "MySQL", "Sequelize"
+        ],
+        "subtitle": "Recipe app built in React, Express, Node and MySQL",
+        "description": "A recipe sharing app where users are free to create recipes, browse recipes posted by others, save recipes to their profiles, and post reviews on recipes.",
+        "login": "Take it for a spin with user test@test.com and password test"
+    },
+    {
+        "id": 2,
+        "title": "School Spot",
+        "deployed": "https://desolate-lowlands-55237.herokuapp.com/",
+        "repo": "https://github.com/Hlsorrells/School-Spot",
+        "image": "schoolSpot",
+        "stack": [
+            "JavaScript", "Express", "Node", "MySQL", "Sequelize"
+        ],
+        "subtitle": "Assignment app built with Express, Node, and MySQL",
+        "description": "This application allows teachers and students to manage the student's assignments and grades. The teacher and student dashboards help to facilitate better communication and efficient grading of assignments.",
+        "login": "Take it for a spin as a teacher with user TSmith@test.com or as a student with user SJones@test.com and both passwords test"
+    },
+    {
+        "id": 3,
+        "title": "Drinkin' Bad",
+        "deployed": "https://hlsorrells.github.io/Drinking-Bad/",
+        "repo": "https://github.com/Hlsorrells/Drinking-Bad",
+        "image": "drinkinBad",
+        "stack":[
+            "JavaScript"
+        ],
+        "subtitle": "Drinking app based on Breaking Bad TV show",
+        "description": "Inspired by the TV Drama 'Breaking Bad' (BB), this application presents the user with a drink choice. Each drink choice leads to an information mashup page with BB character info, a drink selection, and the reason why that drink matches the character.",
+        "login": "There is no login needed to play this game"
+    }
+]
