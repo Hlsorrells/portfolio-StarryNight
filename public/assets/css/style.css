@@ -8,13 +8,17 @@ body {
 
 section {
     color: #262626;
-    margin: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 800px;
     padding: 10px;
     background-color: rgba(140, 140, 140, .60);
 }
 
 figure {
+    margin: auto;
     margin-bottom: 10px;
+    max-width: 600px;
 }
 
 figcaption {
@@ -40,7 +44,8 @@ a {
 }
 
 .about, .projects {
-    margin-top: 25%;
+    /* bootstrap navbar is 50px high */
+    margin-top: 90px;
 }
 
 .title {
