@@ -25,10 +25,27 @@ figcaption {
     text-align: center;
 }
 
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 a {
     color: #262626;
     font-size: small;
     font-weight: bold;
+}
+
+.contactLink {
+    font-size: larger;
+}
+
+.form-row {
+    margin-top: 10px;
 }
 
 .flex-container {
@@ -43,7 +60,7 @@ a {
     width: 100%;
 }
 
-.about, .projects {
+.about, .projects, .contact {
     /* bootstrap navbar is 50px high */
     margin-top: 90px;
 }
