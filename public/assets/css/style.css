@@ -87,3 +87,13 @@ a {
     max-width: 100%;
     height: auto;
 }
+
+#profPic {
+    height: 250px;
+    width: auto;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
