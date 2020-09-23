@@ -55,6 +55,10 @@ app.get("/projects", (req, res) => {
   res.render("projects", { projects: projects});
 });
 
+app.get("/contact", (req, res) => {
+  res.render("contact");
+});
+
 //////////////////////////////////////////////////////////
 // LISTENER
 //////////////////////////////////////////////////////////
