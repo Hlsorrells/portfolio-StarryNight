@@ -1,7 +1,6 @@
 body {
-    background-image: url("../images/forest.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/beautiful-blue-stars-fill.jpg");
+    background-repeat: repeat;
     color: #ffffff;
     font-family: 'Architects Daughter', cursive;
 }
