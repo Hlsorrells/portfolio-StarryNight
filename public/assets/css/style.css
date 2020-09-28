@@ -6,7 +6,7 @@ body {
 }
 
 section {
-    color: #262626;
+    color: #150479;
     margin: auto;
     margin-bottom: 40px;
     width: 90vw;
@@ -36,8 +36,8 @@ h4 {
 }
 
 a {
-    color: #262626;
-    font-size: small;
+    color: #150479;
+    font-size: large;
     font-weight: bold;
 }
 
